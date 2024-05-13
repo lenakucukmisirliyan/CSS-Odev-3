@@ -1,0 +1,51 @@
+header {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center; /* Logoyu ortalama */
+}
+
+.main-container {
+    width: 90%;
+    margin: 20px auto; /* Sayfanın üstünden ve altından boşluk bırakmak için */
+    text-align: center; /* İçerikleri yatay olarak ortala */
+    background-color: #EEEEEE;
+}
+
+.container {
+    box-sizing: border-box; /* padding ve border genişliğe dahil edilsin */
+    text-align: center; /* İçeriği ortalama */
+    margin-left: 5%;
+    margin-right: 5% ;
+    display: flex;
+}
+
+div * {
+    text-align: center;
+}
+
+.first-part {
+    padding-bottom: 1%;
+    margin-right: 2px;
+    background-color: #7EE5DA;
+    width: 30%
+}
+
+.second-part {
+    padding-top: 1%;
+    margin-right: 2px;
+    background-color: #70CCC2;
+    float: left;
+    width: 25%
+}
+
+.last-part {
+    padding-top: 1%;
+    background-color: #62B3AA;
+    width: 45%
+}
+
+footer {
+    width: 100%;
+    margin: 0 auto;
+    text-align: center;
+}
